@@ -11,7 +11,17 @@ public class Q02 {
      //listeye kopyalayan ve harf sırasına göre yazdıran bir METHOD yazınız.
      //Eg : Input : {{Ali,Veli,Ayse},{Hasan,Can},{Suzan}}
      //   Output:[Ali, Ayse, Can, Hasan, Suzan, Veli]
-
+    	
+    	String arr[][]= {{"Ali","Veli","Ayse"},{"Hasan","Can"},{"Suzan"}};
+    	List<String> arrlist1 = new ArrayList<>();
+    	
+    	for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
+				arrlist1.add(arr[i][j]);
+			}
+		}
+    	
+    	System.out.println(arrlist1);
 
     }
 
