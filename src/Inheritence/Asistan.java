@@ -22,7 +22,5 @@ public class Asistan extends Akademisyen{
 	public void derseGir(int dersSaati) {
 		System.out.println(getAdSoyad()+ " " + getDers() + " Dersine Asistan olarak girdi.");
 	}
-	
-	
-	
+
 }
