@@ -18,7 +18,6 @@ public class UserMain {
 			System.out.println((i+1)+"'inci kullaninin bilgilerini girin.");
 			kullaniciEkle();
 		}
-
 	}
 	private static void kullaniciEkle() {
 		Scanner scan = new Scanner(System.in);
