@@ -16,9 +16,9 @@ public class Ogretmen extends Kisi {
 		adSoyad = scan.nextLine();
 		System.out.println("Öğretmenin Yaşı");
 		yas = scan.nextInt();
+		scan.nextLine();
 		System.out.println("Öğretmenin TC NO :");
 		kimlikNo = scan.nextLine();
-		scan.nextLine();
 		System.out.println("Öğretmenin Sicil Numarası :");
 		sicilNo = scan.nextLine();
 		System.out.println("Öğretmenin Bölümü :");
